@@ -1,0 +1,740 @@
+* {
+    margin: 0px;
+}
+
+/* header*/
+
+.contenedor-cabezera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 56px;
+}
+
+.contenedor-logo {
+    display: flex;
+    align-items: center;
+    /*alinea los items al centro del contenedor de forma vertical*/
+
+}
+
+.logotipo {
+    width: 108px;
+    height: 25px;
+
+}
+
+.contenedor-menu {
+    display: flex;
+    align-items: center;
+    /*alinea los items al centro del contenedor de forma vertical*/
+
+}
+
+.menu1 {
+    width: 60px;
+    height: 60px;
+}
+
+.contenedor-boton-header {
+    display: none;
+}
+
+.contenedor-opciones-header {
+    display: none;
+}
+
+
+/* cuerpo*/
+.contenedor-tenista {
+    height: 841px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+    justify-content: space-between;
+}
+
+.caja-tenista {
+    height: 341.53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen1 {
+    height: 341.53px;
+}
+
+.caja-tenista-texto {
+    height: 399px;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+}
+
+.contenedor-titulo-1 {
+    height: 228px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 0px 0px 30px 80px;
+}
+
+.titulo-1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    size: 50px;
+    line-height: 57.3px;
+    letter-spacing: -3.5%;
+    text-align: right;
+    color: #232c50;
+}
+
+.contenedor-descripcion-1 {
+    height: 71px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 0px 0px 0px 20px;
+
+}
+
+.descripcion-1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16.56px;
+    line-height: 26.01px;
+    text-align: right;
+    color: #000;
+}
+
+.contendor-boton-tenista {
+    height: 44px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 10px 0px 0px 80px;
+}
+
+.boton-tenista {
+    width: 134px;
+    height: 44px;
+    align-items: end;
+}
+
+.caja-padre-different {
+    height: 306px;
+    background-color: #3CDDF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.caja-hija-titulo-dif {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 36px;
+    line-height: 41.26px;
+    color: #ffffff;
+    width: 440px;
+    height: 88px;
+    text-align: left;
+}
+
+.caja-hija-texto-dif {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+
+.descripcion-2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24.18px;
+    color: #ffffff;
+}
+
+.contenedor-padre-numeros {
+
+    height: 682px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 34px;
+    margin-top: 30px;
+}
+
+.para-ajuste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja-hija-1 {
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja-hija-1-separacion {
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.caja-nina-11 {
+    height: 43px;
+}
+
+.caja-nina-12 {
+    height: 150px;
+}
+
+.caja-nina-1-2 {
+    height: 43px;
+}
+
+.caja-nina-22 {
+    height: 150px;
+}
+
+.caja-nina-13 {
+    height: 43px;
+}
+
+.caja-nina-33 {
+    height: 150px;
+}
+
+.texto {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16.3;
+    line-height: 25.6px;
+    text-align: left;
+    margin: 0px 10px;
+}
+
+.caja-tarjetas {
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    justify-content: space-evenly;
+    /*margin-bottom: 0px;*/
+}
+
+.med-titulo-grande {
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-grande {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 39.2px;
+    line-height: 62.1px;
+    color: #242453;
+}
+
+.caja-padre-tarjeta {
+    height: 254px;
+    margin: 0px 18px;
+}
+
+.med-lebron {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.titulo-lebron {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-3 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16.07px;
+    line-height: 25.17px;
+    color: #3f4868;
+}
+
+.des-lebron {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #b9b9c1;
+}
+
+
+.boton-cartas {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.med-navarro {
+    display: none;
+}
+
+.med-sanyo {
+    display: none;
+}
+
+
+
+
+
+.caja-get {
+    height: 366px;
+    background-color: #3CDDF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-get {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px 50px 40px 50px;
+
+}
+
+.cuadro-get {
+    height: 192px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.descripcion-get {
+    color: #ffffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.boton-get {
+    height: 44px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOOTER */
+footer {
+    height: 535px;
+    background-color: #1E1E26;
+}
+
+.contenedor-padre-footer {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.contenedor-arriba {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-dividir1 {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-dividir2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.contenedor-form {
+    background-color: white;
+    width: 200px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.boton-form {
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color: #ffffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    font-size: 10.18px;
+    margin-left: 10px;
+}
+
+.email {
+    width: 200px;
+    height: 42px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.contenedor-secciones {
+    width: 276px;
+    height: 162px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+}
+
+.primera-secciones {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.segunda-secciones {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+
+.lista {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 23.4px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: left;
+}
+
+.contenedor-contactos {
+    width: 100%;
+    height: 42px;
+}
+
+.contenedor-img-contactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.logos-redessociales {
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-footer-logo {
+    width: 108px;
+    height: 25px;
+}
+
+.contenedor-footer-logo img {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 12.5px;
+    text-align: center;
+    color: #8c8c94;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    align-content: center;
+    white-space: nowrap;
+}
+
+
+/********** ESCRITORIO**************/
+
+@media (min-width:800px) {
+
+    /* header*/
+    .contenedor-cabezera {
+        margin: 90px 180px;
+    }
+
+    /*.contenedor-logo{
+    position: relative;
+    top:20px;
+    }*/
+
+
+
+    .contenedor-menu {
+        display: none;
+    }
+
+
+    .contenedor-boton-header {
+        display: block;
+        align-items: center;
+    }
+
+    .boton-header {
+        width: 134px;
+        height: 44px;
+        border-radius: 50px;
+        border-color: #8B48BF;
+        background-color: #8B48BF;
+        color: #ffffff;
+
+    }
+
+    .contenedor-opciones-header {
+        width: 397px;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    span {
+        color: #242e52;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: 13px;
+        transition: backgorund-color 0.3s color 0.3s;
+    }
+
+    span:hover {
+        color: #B3B2B7;
+        cursor: pointer;
+    }
+
+    /* cuerpo*/
+    .contenedor-tenista {
+        height: 462px;
+        display: flex;
+        flex-direction: row;
+        margin: 40px 20px;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 70px;
+    }
+
+    .caja-padre-different {
+        height: 168px;
+        background-color: #8B48BF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja-hija-titulo-dif {
+        margin: 0px 2px 0px 120px;
+    }
+
+    .caja-hija-texto-dif {
+        margin: 0px 120px 0px 2px;
+    }
+
+
+    .contenedor-padre-numeros {
+        height: 482px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0px;
+    }
+
+    .para-ajuste {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0px 350px 0px 350px;
+    }
+
+    .caja-nina-11 {
+        height: 23px;
+    }
+
+    .caja-hija-1 {
+        height: 162px;
+    }
+
+    .caja-hija-1-separacion {
+        height: 162px;
+        margin: 0px 0px 0px 25px;
+    }
+
+    .caja-nina-12 {
+        height: 104px;
+    }
+
+    .caja-solita {
+        margin: 10px 290px 10px 290px;
+    }
+
+    .caja-padre-tarjeta {
+        height: 260px;
+        margin: 0px 71px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .caja-tarjetas {
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .med-titulo-grande {
+        height: 61px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .med-lebron {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .boton-cartas {
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5cqb;
+    }
+
+    .med-navarro {
+        display: block;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .med-sanyo {
+        display: block;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .caja-get {
+        height: 244px;
+        background-color: #8B48BF;
+    }
+
+    .contenedor-get {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cuadro-get {
+        height: 96px;
+        align-items: center;
+    }
+
+    .boton-get {
+        height: 44px;
+        align-items: center;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 247px;
+    }
+
+    .contenedor-padre-footer {
+        background-color: pink;
+        margin: 0px 12%;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .contenedor-arriba {
+        flex-direction: row;
+    }
+
+    .contenedor-dividir1 {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: start;
+        height: 100%;
+        width: 200px;
+    }
+
+    .contenedor-dividir2 {
+        flex-direction: row-reverse;
+        height: 100%;
+        align-items: start;
+    }
+
+    .contenedor-img-contactos {
+        justify-content: space-between;
+        width: 154px;
+    }
+
+    .contenedor-form {
+        width: 273px;
+    }
+
+    .logos-redessociales {
+        gap: 13px;
+
+    }
+
+}
